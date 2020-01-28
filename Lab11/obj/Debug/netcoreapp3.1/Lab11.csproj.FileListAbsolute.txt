@@ -1,0 +1,11 @@
+C:\Users\Frost\source\repos\Lab11\Lab11\bin\Debug\netcoreapp3.1\Lab11.exe
+C:\Users\Frost\source\repos\Lab11\Lab11\bin\Debug\netcoreapp3.1\Lab11.deps.json
+C:\Users\Frost\source\repos\Lab11\Lab11\bin\Debug\netcoreapp3.1\Lab11.runtimeconfig.json
+C:\Users\Frost\source\repos\Lab11\Lab11\bin\Debug\netcoreapp3.1\Lab11.runtimeconfig.dev.json
+C:\Users\Frost\source\repos\Lab11\Lab11\bin\Debug\netcoreapp3.1\Lab11.dll
+C:\Users\Frost\source\repos\Lab11\Lab11\bin\Debug\netcoreapp3.1\Lab11.pdb
+C:\Users\Frost\source\repos\Lab11\Lab11\obj\Debug\netcoreapp3.1\Lab11.csprojAssemblyReference.cache
+C:\Users\Frost\source\repos\Lab11\Lab11\obj\Debug\netcoreapp3.1\Lab11.AssemblyInfoInputs.cache
+C:\Users\Frost\source\repos\Lab11\Lab11\obj\Debug\netcoreapp3.1\Lab11.AssemblyInfo.cs
+C:\Users\Frost\source\repos\Lab11\Lab11\obj\Debug\netcoreapp3.1\Lab11.dll
+C:\Users\Frost\source\repos\Lab11\Lab11\obj\Debug\netcoreapp3.1\Lab11.pdb
