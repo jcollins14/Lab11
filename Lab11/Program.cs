@@ -16,13 +16,13 @@ namespace Lab11
     }
     class Program
     {
-        public enum Genre
-        {
-            Animation,
-            Fantasy,
-            Horror,
-            SciFi
-        }
+        //public enum Genre
+        //{
+        //    Animation,
+        //    Fantasy,
+        //    Horror,
+        //    SciFi
+        //}
         static void Main(string[] args)
         {
             bool loop = true;
