@@ -29,7 +29,7 @@ namespace Lab11
             while (loop)
             {
                 Console.WriteLine("Welcome to the Movie Database.");
-                string input = "";
+                string input = "error";
 
                 while (input == "error")
                 {
