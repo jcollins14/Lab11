@@ -1,19 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Lab11
 {
-
-    public class Movie
+    public class Class
     {
-        public string Title { get; set; }
-        public string Genre { get; set; }
-        public Movie(string title, string genre)
-        {
-            Title = title;
-            Genre = genre;
-        }
         static void Main(string[] args)
         {
             bool loop = true;
@@ -38,7 +29,7 @@ namespace Lab11
             while (loop)
             {
                 Console.WriteLine("Welcome to the Movie Database.");
-                string input = SelectGenre();
+                string input = "";
 
                 while (input == "error")
                 {
@@ -86,7 +77,6 @@ namespace Lab11
             Console.WriteLine("Thank you for using the Movie Database. Goodbye");
             Environment.Exit(1);
         }
-
         public static bool AskLoop()
         {
             string input = "error";
@@ -163,3 +153,4 @@ namespace Lab11
         }
     }
 }
+    
