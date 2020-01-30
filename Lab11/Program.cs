@@ -5,7 +5,7 @@ namespace Lab11
 {
     public class Class
     {
-        static void Main(string[] args)
+        static void Main()
         {
             bool loop = true;
 
@@ -23,8 +23,8 @@ namespace Lab11
             Movie district = new Movie("District 9 (2009)", "SciFi");
             Movie primer = new Movie("Primer (2004)", "SciFi");
 
-            //Movie Array Declaration
-            Movie[] movies = new Movie[12] { weathering, voice, gumby, lotr1, lotr2, lotr3, thing, shining, mandy, blade, district, primer };
+            //Movie List Declaration
+            List<Movie> movies = new List<Movie> {weathering, voice, gumby, lotr1, lotr2, lotr3, thing, shining, mandy, blade, district, primer};
 
             while (loop)
             {
@@ -115,6 +115,8 @@ namespace Lab11
             Console.WriteLine("2: Fantasy");
             Console.WriteLine("3: Horror");
             Console.WriteLine("4: SciFi");
+            Console.WriteLine("=============================================");
+            Console.WriteLine();
             Console.WriteLine("Please select an input based on its assigned number.");
 
             try
