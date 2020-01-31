@@ -26,6 +26,7 @@ namespace Lab11
             //Movie List Declaration
             List<Movie> movies = new List<Movie> {weathering, voice, gumby, lotr1, lotr2, lotr3, thing, shining, mandy, blade, district, primer};
 
+            //Loop to run main program, continues indefinitely if user wishes.
             while (loop)
             {
                 Console.WriteLine("Welcome to the Movie Database.");
@@ -59,6 +60,7 @@ namespace Lab11
                     }
                 }
 
+                //Alphabetize results list
                 movieTitles.Sort();
 
                 Console.WriteLine();
@@ -71,9 +73,11 @@ namespace Lab11
                 }
 
                 Console.WriteLine();
+
                 loop = AskLoop();
             }
-
+            //exits program when user does not wish to continue using the loop
+            Console.WriteLine();
             Console.WriteLine("Thank you for using the Movie Database. Goodbye");
             Environment.Exit(1);
         }
@@ -91,6 +95,7 @@ namespace Lab11
                 if (input != "yes" && input != "no")
                 {
                     Console.WriteLine();
+                    Console.WriteLine("Please enter yes or no. Would you like to search again?");
                     input = "error";
                 }
             }
@@ -119,6 +124,7 @@ namespace Lab11
             Console.WriteLine();
             Console.WriteLine("Please select an input based on its assigned number.");
 
+            //Input validation in the event a non integer is entered
             try
             {
                 compare = int.Parse(Console.ReadLine());
@@ -129,28 +135,22 @@ namespace Lab11
                 Console.WriteLine();
             }
 
-            if (compare == 1)
+            //chooses a genre based on integer selected
+            switch (compare)
             {
-                answer = "Animation";
+                case 1: answer = "Animation";
+                    break;
+                case 2: answer = "Fantasy";
+                    break;
+                case 3: answer = "Horror";
+                    break;
+                case 4: answer = "SciFi";
+                    break;
+                default:
+                    Console.WriteLine("Please select a displayed integer.");
+                    Console.WriteLine();
+                    break;
             }
-            else if (compare == 2)
-            {
-                answer = "Fantasy";
-            }
-            else if (compare == 3)
-            {
-                answer = "Horror";
-            }
-            else if (compare == 4)
-            {
-                answer = "SciFi";
-            }
-            else
-            {
-                Console.WriteLine("Please select a displayed integer.");
-                Console.WriteLine();
-            }
-
             return answer;
         }
     }
